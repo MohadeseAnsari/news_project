@@ -26,3 +26,5 @@ class GeneratedNews(BaseModel):
     title: str = Field(min_length=5, max_length=200)
     lead: str = Field(min_length=1, max_length=1000)
     body: str = Field(min_length=1, max_length=10000)
+
+# Pydantic models for the news processing pipeline
