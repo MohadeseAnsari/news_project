@@ -40,3 +40,8 @@ GeneratedNews (Pydantic)
     |
     v
 Output JSON
+
+## Database Schema 
+
+![ERD](docs/erd.png)
+[MermaidCode](docs/erd.md)
