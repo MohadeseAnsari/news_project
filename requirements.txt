@@ -1,3 +1,5 @@
 pydantic
 pydantic-ai
 python-dotenv
+fastapi 
+uvicorn
