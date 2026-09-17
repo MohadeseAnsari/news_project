@@ -1,7 +1,9 @@
 """
 سرور دریافت ورودی خبر.
-- POST /api/news  → دریافت، auth، validate، ذخیره
-- GET  /health    → بررسی سلامت
+
+Endpoints:
+    POST /api/news  → دریافت، احراز هویت، اعتبارسنجی، نگاشت و ذخیره
+    GET  /health    → بررسی سلامت سرور و دیتابیس
 """
 
 import os
@@ -13,9 +15,10 @@ from sqlalchemy import text
 from dotenv import load_dotenv
 
 from py.db import get_db, init_db, engine
-from py.db_models import MainRecord
+from py.db_models import MainRecord, Field, Category
 from py.schemas import NewsRequest, NewsResponse, HealthResponse
 
+# ---------------- Logging ----------------
 logging.basicConfig(
     level=logging.INFO,
     format="%(asctime)s [%(levelname)s] %(message)s",
@@ -29,6 +32,7 @@ if not SHARED_SECRET:
     raise RuntimeError("SHARED_SECRET is not configured in .env")
 
 
+# ---------------- FastAPI app ----------------
 app = FastAPI(
     title="News Intake Server",
     description="دریافت اطلاعات پایان‌نامه و ذخیره در دیتابیس",
@@ -46,6 +50,25 @@ def on_startup():
         raise
 
 
+# ---------------- Helpers ----------------
+def resolve_field(db: Session, field_name: str) -> tuple[int | None, int | None]:
+    """
+    رشته را به field و category نگاشت می‌کند.
+    اگر رشته در جدول fields نباشد، به دسته «other» برمی‌گردد.
+
+    Returns:
+        (field_id, category_id)
+    """
+    field = db.query(Field).filter(Field.name == field_name).first()
+    if field:
+        return field.id, field.category_id
+
+    # رشته ناشناخته → other
+    other = db.query(Category).filter(Category.name == "other").first()
+    return None, (other.id if other else None)
+
+
+# ---------------- Endpoints ----------------
 @app.post(
     "/api/news",
     response_model=NewsResponse,
@@ -61,7 +84,10 @@ def receive_news(payload: NewsRequest, db: Session = Depends(get_db)):
             detail="Invalid shared secret",
         )
 
-    # 2) ذخیره (بدون shared_Secret)
+    # 2) نگاشت رشته به field و category
+    field_id, category_id = resolve_field(db, payload.field)
+
+    # 3) ساخت رکورد
     record = MainRecord(
         username=payload.username,
         title=payload.title,
@@ -70,6 +96,8 @@ def receive_news(payload: NewsRequest, db: Session = Depends(get_db)):
         table_of_contents=payload.table_of_contents,
         author=payload.author,
         supervisor=payload.supervisor,
+        field_id=field_id,
+        category_id=category_id,
         status="ready",
     )
 
@@ -77,7 +105,12 @@ def receive_news(payload: NewsRequest, db: Session = Depends(get_db)):
     db.commit()
     db.refresh(record)
 
-    logger.info(f"Stored record id={record.id} username={record.username}")
+    logger.info(
+        f"Stored record id={record.id} "
+        f"username={record.username} "
+        f"field='{payload.field}' "
+        f"category_id={category_id}"
+    )
 
     return NewsResponse(
         id=record.id,
