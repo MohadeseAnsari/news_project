@@ -1,0 +1,534 @@
+﻿field_name,category_name,is_ambiguous
+آسیب‌شناسی,medical_basic,no
+آسیب‌شناسی دامپزشکی,veterinary,no
+آماد,other,yes
+آمار,basic_sciences,no
+آمار زیستی,basic_sciences,no
+آموزش بهداشت و ارتقاء سلامت,medical_public,no
+آموزش پرستاری,medical_nursing,no
+آموزش پزشکی,medical_public,no
+آموزش مهندسی,engineering,no
+آناتومی و جنین‌شناسی دامپزشکی,veterinary,no
+آناتومی و جنین‌شناسی مقایسه‌ای,medical_basic,no
+آندیورولوژی,medical_clinical,no
+آهنگسازی,arts_humanities,no
+اپیدمیولوژی,medical_public,no
+اتاق عمل,medical_nursing,no
+اتولوژی و نورواتولوژی,medical_clinical,no
+اختلالات کف لگن,other,yes
+اخلاق پزشکی,medical_public,no
+ادبیات نمایشی,arts_humanities,no
+ارتباط تصویری,arts_humanities,no
+ارتوپدی,medical_clinical,no
+ارتوپدی کودکان,medical_clinical,no
+ارزیابی فناوری سلامت (HTA),other,yes
+ارگونومی,medical_public,no
+اروانکولوژی,medical_clinical,no
+استرابیسم,medical_clinical,no
+استریوتاکسی,medical_clinical,no
+اطلاعات,other,yes
+اطلاعات استراتژیک,social_economics,no
+اعضای مصنوعی و وسایل کمکی (ارتوز و پروتز),medical_rehab,no
+اقتصاد بهداشت,medical_public,no
+اقتصاد و مدیریت دارو,social_economics,no
+الهیات,arts_humanities,no
+الهیات و معارف اسلامی,arts_humanities,no
+امداد و نجات,medical_nursing,no
+امور فرهنگی,arts_humanities,no
+انفورماتیک پزشکی,medical_public,no
+انگل‌شناسی,medical_basic,no
+انگل‌شناسی پزشکی,medical_basic,no
+انگل‌شناسی دامپزشکی,veterinary,no
+انکولوژی زنان,medical_clinical,no
+اورولوژی اطفال,medical_clinical,no
+اورولوژی ترمیمی,medical_clinical,no
+اورولوژی زنان و زایمان,medical_clinical,no
+اکولو پلاستیک,other,yes
+اکولوژی انسانی,other,yes
+اکوکاردیوگرافی,medical_imaging,no
+ایران‌شناسی,arts_humanities,no
+ایمنی و بهداشت در واحدهای صنفی,medical_public,no
+ایمنی‌شناسی,medical_basic,no
+ایمنی‌شناسی پزشکی,medical_basic,no
+ایمنی، بهداشت و محیط زیست,agriculture_env,no
+ایمونولوژی و آلرژی اطفال,medical_clinical,no
+ایمونولوژی و آلرژی بالینی,medical_clinical,no
+اینترونشنال کاردیولوژی,medical_clinical,no
+اینترونشنال کاردیولوژی در کودکان و نوجوانان,medical_clinical,no
+بازسازی پس از سانحه,other,yes
+بازیگری,arts_humanities,no
+باستان‌سنجی,arts_humanities,no
+باستان‌شناسی,arts_humanities,no
+بافت‌شناسی,medical_basic,no
+بافت‌شناسی پزشکی,medical_basic,no
+بافت‌شناسی مقایسه‌ای,medical_basic,no
+بافت‌شناسی و جنین‌شناسی,medical_basic,no
+باکتری‌شناسی,other,yes
+باکتری‌شناسی پزشکی,other,yes
+برنامه‌ریزی درسی,social_economics,no
+برنامه‌ریزی شهری,social_economics,no
+برنامه‌ریزی منطقه‌ای,social_economics,no
+برنامه‌ریزی یادگیری الکترونیکی,social_economics,no
+بهداشت,medical_public,no
+بهداشت آبزیان,veterinary,no
+بهداشت خوراک دام,veterinary,no
+بهداشت روان,medical_public,no
+بهداشت فراورده‌های دامی,veterinary,no
+بهداشت محیط,medical_public,no
+بهداشت مواد غذایی,medical_public,no
+بهداشت مواد غذایی با منشأ دامی,veterinary,no
+بهداشت و ایمنی مواد غذایی,medical_public,no
+بهداشت و بازرسی گوشت,medical_public,no
+بهداشت و بیماریهای آبزیان,veterinary,no
+بهداشت و بیماریهای پرندگان,veterinary,no
+بهداشت و بیماریهای دامهای کوچک,veterinary,no
+بهداشت و بیماریهای طیور,veterinary,no
+بهداشت و بیماریهای گاو,veterinary,no
+بهداشت و کنترل مواد غذایی,medical_public,no
+بهداشت و کنترل کیفی مواد غذایی,medical_public,no
+بهداشتکار دهان و دندان,dentistry,no
+بهداشتیار دامپزشکی,veterinary,no
+بیماری‌های پوست,medical_clinical,no
+بیماری‌های داخلی,medical_clinical,no
+بیماری‌های داخلی و عفونی و گرمسیری,medical_clinical,no
+بیماری‌های دهان و تشخیص,other,yes
+بیماری‌های دهان و فک و صورت,dentistry,no
+بیماری‌های ریه,medical_clinical,no
+بیماری‌های ریه کودکان,medical_clinical,no
+بیماری‌های عفونی و نقص ایمنی,medical_clinical,no
+بیماری‌های قرنیه (سگمان قدامی),veterinary,no
+بیماری‌های قلب اطفال,medical_clinical,no
+بیماری‌های قلب و عروق,medical_clinical,no
+بیماری‌های مادرزادی قلب در بالغین,medical_clinical,no
+بیماری‌های مغز و اعصاب,medical_clinical,no
+بیماریهای  چشم,medical_clinical,no
+بیماریهای آمیزشی,medical_clinical,no
+بیماریهای انگلی,medical_clinical,no
+بیماریهای پوست و مو,medical_clinical,no
+بیماریهای خون و سرطان,medical_clinical,no
+بیماریهای داخلی دامهای بزرگ,veterinary,no
+بیماریهای داخلی دامهای کوچک,veterinary,no
+بیماریهای دستگاه تنفس,medical_clinical,no
+بیماریهای دستگاه گوارش,medical_clinical,no
+بیماریهای رماتیسمی و مفاصل,medical_clinical,no
+بیماریهای زنان و زایمان,medical_clinical,no
+بیماریهای طیور,veterinary,no
+بیماریهای عضلانی - استخوانی,medical_clinical,no
+بیماریهای غدد درون ریز و برون ریز,medical_clinical,no
+بیماریهای گوش و حلق و بینی,medical_clinical,no
+بیماریهای لنفاوی,medical_clinical,no
+بیماریهای کلیه و مجاری ادرار,medical_clinical,no
+بیماریهای کودکان,medical_clinical,no
+بینائی‌سنجی,medical_rehab,no
+بیهوشی,medical_nursing,no
+بیهوشی پیوند اعضاء داخلی شکم,medical_nursing,no
+بیهوشی در جراحی مغز و اعصاب,medical_nursing,no
+بیهوشی قلب,medical_nursing,no
+بیهوشی و مراقبت‌های ویژه دامپزشکی,veterinary,no
+بیهوشی کودکان,medical_nursing,no
+بیوتکنولوژی پزشکی,medical_basic,no
+بیوتکنولوژی دامپزشکی,veterinary,no
+بیوشیمی,medical_basic,no
+بیوشیمی بالینی,medical_basic,no
+بیوشیمی دامپزشکی,veterinary,no
+بیولوژی تولید مثل,medical_basic,no
+بیولوژی دهان,medical_basic,no
+بیولوژی و کنترل ناقلین بیماریها,medical_clinical,no
+پاتوبیولوژی,medical_clinical,no
+پاتولوژی اطفال,medical_clinical,no
+پاتولوژی چشم,medical_clinical,no
+پاتولوژی دامپزشکی,veterinary,no
+پاتولوژی دهان و فک,dentistry,no
+پاتولوژی مولکولاروسیتوژنتیک,medical_clinical,no
+پدافند غیرعامل,arts_humanities,no
+پدافند غیرعامل در نظام سلامت,arts_humanities,no
+پرتو پزشکی,medical_imaging,no
+پرتو درمانی,other,yes
+پرستاری,medical_nursing,no
+پرستاری اورژانس,medical_nursing,no
+پرستاری داخلی - جراحی,medical_nursing,no
+پرستاری سالمندی,medical_nursing,no
+پرستاری سلامت جامعه,medical_nursing,no
+پرستاری مراقبت‌های ویژه,medical_nursing,no
+پرستاری مراقبت‌های ویژه نوزادان,medical_nursing,no
+پرستاری نظامی,medical_nursing,no
+پروتئومیکس کاربردی,medical_basic,no
+پروستو ایمپلنت,dentistry,no
+پریناتولوژی,medical_clinical,no
+پریو ایمپلنت,dentistry,no
+پزشکی اجتماعی,medical_public,no
+پزشکی پیشگیری,medical_public,no
+پزشکی دریایی,other,yes
+پزشکی سوزنی,medical_clinical,no
+پزشکی عمومی,medical_clinical,no
+پزشکی فیزیکی و توانبخشی,medical_rehab,no
+پزشکی قانونی,medical_public,no
+پزشکی مولکولی,medical_clinical,no
+پزشکی هسته‌ای,medical_imaging,no
+پزشکی ورزشی,medical_public,no
+پژوهش هنر,arts_humanities,no
+پیس میکرو اینترونشنال - الکتروفیزیولوژی,medical_basic,no
+پیشگیری بیماری‌های دامی,veterinary,no
+پیشگیری و کنترل عفونت‌های بیمارستانی,other,yes
+پیوند پزشکی,medical_clinical,no
+پیوند کبد,medical_clinical,no
+پیوند کلیه,medical_clinical,no
+تاریخ,arts_humanities,no
+تاریخ تطبیقی و تحلیلی هنر اسلامی,arts_humanities,no
+تاریخ علم,arts_humanities,no
+تاریخ علوم پزشکی,medical_basic,no
+تاریخ هنر ایران اسلامی,arts_humanities,no
+تاریخ هنر ایران باستان,arts_humanities,no
+تاریخ هنر جهان اسلام,arts_humanities,no
+تربیت بدنی و علوم ورزشی,other,yes
+ترمیم زیبایی بر باندینگ,dentistry,no
+ترومای جراحی عمومی,medical_clinical,no
+ترکیبات طبیعی و دارویی دریایی,medical_pharma,no
+تشخیص و بیماری‌های دهان و دندان,dentistry,no
+تصویر متحرک (انیمیشن),arts_humanities,no
+تصویربرداری پزشکی,medical_imaging,no
+تصویرسازی,arts_humanities,no
+تغذیه,medical_clinical,no
+تغذیه بالینی,medical_clinical,no
+تغذیه ورزشی,medical_clinical,no
+تهیه‌کنندگی,arts_humanities,no
+توانبخشی,medical_rehab,no
+توسعه محلی,agriculture_env,no
+تولید سینما,arts_humanities,no
+توکسین‌های میکروبی,medical_basic,no
+تکنسین اتاق عمل,medical_nursing,no
+تکنولوژی آموزشی در علوم پزشکی,medical_basic,no
+تکنولوژی پرتودرمانی,medical_imaging,no
+تکنولوژی پرتوشناسی (رادیولوژی),medical_imaging,no
+تکنولوژی تصویر برداری تشدید مغناطیسی,medical_imaging,no
+تکنولوژی فناوری معماری,arts_humanities,no
+تکنولوژی گردش خون,other,yes
+جراحی,medical_clinical,no
+جراحی دامپزشکی,veterinary,no
+جغرافیا,social_economics,no
+چاپ,arts_humanities,no
+چشم پزشکی,medical_clinical,no
+حسابداری,social_economics,no
+حشره‌شناسی پزشکی و مبارزه با ناقلین,other,yes
+حقوق,social_economics,no
+حکمت هنر اسلامی,arts_humanities,no
+خون و سرطان اطفال,medical_clinical,no
+خون و سرطان بالغین,medical_clinical,no
+خون‌شناسی  آزمایشگاهی و بانک خون,other,yes
+داروسازی,medical_pharma,no
+داروسازی بالینی,medical_pharma,no
+داروسازی سنتی,medical_pharma,no
+داروسازی هسته‌ای,medical_pharma,no
+دامپزشکی,veterinary,no
+درد,medical_clinical,no
+دردهای مزمن دهانی و صورتی,dentistry,no
+درماتو پاتولوژی,medical_clinical,no
+دستیاری ارتودانتیکس,dentistry,no
+دستیاری بیماری‌های دهان و تشخیص,other,yes
+دستیاری پاتولوژی دهان و فک,dentistry,no
+دستیاری پریودانتیکس,dentistry,no
+دستیاری جراحی دهان و فک و صورت,dentistry,no
+دستیاری دندان‌پزشکی ترمیمی,dentistry,no
+دستیاری دندان‌پزشکی کودکان,dentistry,no
+دستیاری رادیولوژی دندان و فک و صورت,dentistry,no
+دندان‌پزشکی,dentistry,no
+دکترای تخصصی پژوهشی,other,yes
+دکترای عمومی پزشکی,other,yes
+دکتری پیوسته بیوشیمی,medical_basic,no
+دکتری پیوسته بیوفیزیک,medical_basic,no
+دکتری پیوسته ژئوفیزیک,basic_sciences,no
+دکتری پیوسته شیمی,basic_sciences,no
+دکتری پیوسته علوم زمین,basic_sciences,no
+دکتری پیوسته علوم کامپیوتر,basic_sciences,no
+دکتری پیوسته فیزیک,basic_sciences,no
+دیپلمای دانشگاهی علوم دارویی دامپزشکی,veterinary,no
+رادیو,arts_humanities,no
+رادیوبیولوژی و حفاظت پرتویی,medical_imaging,no
+رادیولوژی,medical_imaging,no
+رادیولوژی - سونوگرافی,medical_imaging,no
+رادیولوژی دامپزشکی,veterinary,no
+رادیولوژی و حفاظت پرتویی,medical_imaging,no
+رژیم درمانی,medical_clinical,no
+رفاه اجتماعی,medical_public,no
+روان پرستاری,medical_nursing,no
+روان‌پزشکی,medical_clinical,no
+روان‌شناسی,social_economics,no
+روان‌شناسی بالینی,social_economics,no
+روان‌شناسی بالینی پزشکی,social_economics,no
+روان‌شناسی بالینی کودک و نوجوان,social_economics,no
+روان‌شناسی سلامت,social_economics,no
+روان‌شناسی نظامی,social_economics,no
+روماتولوژی,medical_clinical,no
+ریاضی,basic_sciences,no
+رینولوژی,medical_clinical,no
+زبان و ادبیات انگلیسی,medical_basic,no
+زبان و ادبیات خارجی,arts_humanities,no
+زبان و ادبیات فارسی,arts_humanities,no
+زبان‌شناسی,arts_humanities,no
+زیست فناوری پزشکی,medical_basic,no
+زیست فناوری دارویی,medical_pharma,no
+زیست مواد دارویی,medical_pharma,no
+زیست‌شناسی,basic_sciences,no
+زیست‌شناسی دریا,basic_sciences,no
+ژئوفیزیک و هواشناسی,basic_sciences,no
+ژنتیک انسانی,medical_basic,no
+ژنتیک پزشکی,medical_clinical,no
+ژورنالیسم پزشکی,medical_public,no
+سالمندشناسی,medical_public,no
+سرطان‌های دستگاه ادراری - تناسلی,medical_clinical,no
+سلامت در بلایا و فوریت‌ها,medical_public,no
+سلامت دهان و دندان‌پزشکی اجتماعی,dentistry,no
+سلامت سالمندان,medical_public,no
+سلامت سالمندی,medical_public,no
+سلامت و ترافیک,medical_public,no
+سلامت و رسانه,medical_public,no
+سلامت و رفاه اجتماعی,medical_public,no
+سم‌شناسی,medical_basic,no
+سم‌شناسی بالینی,medical_basic,no
+سنجش آموزش,medical_public,no
+سنجش از دور و سیستم اطلاعات جغرافیایی,agriculture_env,no
+سوختگی,medical_clinical,no
+سیاست‌گذاری سلامت,medical_public,no
+سیاست‌های غذا و تغذیه,medical_clinical,no
+سینما,arts_humanities,no
+شنوایی شناسی,medical_rehab,no
+شهرسازی,social_economics,no
+شیمی,basic_sciences,no
+شیمی دارویی,medical_pharma,no
+شیمی مواد خوراکی و آب‌شناسی پزشکی,basic_sciences,no
+صنایع دستی,arts_humanities,no
+طب,other,yes
+طب اورژانس,medical_nursing,no
+طب تسکینی,medical_clinical,no
+طب خواب,medical_clinical,no
+طب روان‌تنی,medical_clinical,no
+طب سنتی ایرانی,medical_clinical,no
+طب سوزنی,medical_clinical,no
+طب مادر و جنین,medical_clinical,no
+طب نوزادی و پیرامون تولد,medical_clinical,no
+طب هوافضا و زیرسطحی,medical_clinical,no
+طب کار,medical_clinical,no
+طراحی پارچه و لباس,arts_humanities,no
+طراحی شهری,arts_humanities,no
+طراحی صنعتی,arts_humanities,no
+طراحی فضاهای اموزشی,arts_humanities,no
+عفونی اطفال,medical_clinical,no
+علم اطلاعات و دانش‌شناسی,other,yes
+علوم آزمایشگاهی,medical_basic,no
+علوم آزمایشگاهی دامپزشکی,veterinary,no
+علوم اجتماعی,social_economics,no
+علوم اداری,social_economics,no
+علوم اداری و اقتصاد,social_economics,no
+علوم ارتباطات اجتماعی,social_economics,no
+علوم اسب و اسبداری,veterinary,no
+علوم اطلاعات و حفاظت اطلاعات,social_economics,no
+علوم اطلاعاتی,social_economics,no
+علوم اعصاب,medical_basic,no
+علوم اعصاب‌شناختی,medical_basic,no
+علوم اقتصادی,social_economics,no
+علوم انتظامی,social_economics,no
+علوم بهداشتی در تغذیه,medical_clinical,no
+علوم پایه,medical_basic,no
+علوم پزشکی,medical_basic,no
+علوم تجربی,medical_basic,no
+علوم تربیتی,social_economics,no
+علوم تشریح آناتومی,medical_basic,no
+علوم تشریح دامپزشکی,veterinary,no
+علوم تشریحی,medical_basic,no
+علوم تغذیه,medical_clinical,no
+علوم تغذیه در بحران و حوادث مترقبه,medical_clinical,no
+علوم حدیث، اخلاق و آداب پزشکی,medical_public,no
+علوم داروهای پرتوزا,medical_pharma,no
+علوم دارویی دامپزشکی,veterinary,no
+علوم زمین,basic_sciences,no
+علوم سلولی کاربردی,medical_basic,no
+علوم سیاسی,social_economics,no
+علوم شناختی,medical_basic,no
+علوم محیط زیست,agriculture_env,no
+علوم مهندسی,engineering,no
+علوم و صنایع غذایی,agriculture_env,no
+علوم و فناوری‌های تصویربرداری پزشکی,medical_imaging,no
+علوم و مهندسی آب,agriculture_env,no
+علوم و مهندسی آبخیز,agriculture_env,no
+علوم و مهندسی جنگل,agriculture_env,no
+علوم و مهندسی شیلات,agriculture_env,no
+علوم و مهندسی مرتع,agriculture_env,no
+علوم کامپیوتر,basic_sciences,no
+علوم‌شناختی,other,yes
+علوم‌شناختی روان‌شناسی,social_economics,no
+عکاسی,arts_humanities,no
+غدد اطفال,medical_clinical,no
+غدد درون‌ریز و متابولیسم,medical_clinical,no
+فارماسیوتیکس,medical_pharma,no
+فارماکوگنوزی,medical_pharma,no
+فارماکولوژی,medical_pharma,no
+فارماکولوژی دامپزشکی,veterinary,no
+فرش,arts_humanities,no
+فرهنگ و زبان‌های باستانی,arts_humanities,no
+فقه,arts_humanities,no
+فلسفه علم,arts_humanities,no
+فناوری اطلاعات سلامت,medical_public,no
+فناوری تصویربرداری پزشکی (MRI),medical_imaging,no
+فناوری تصویربرداری پزشکی (سی تی اسکن),medical_imaging,no
+فناوری معماری,arts_humanities,no
+فناوری‌های تولیدمثل در دامپزشکی,veterinary,no
+فنون پزشکی و بیمارستانی,medical_public,no
+فوتونیک,basic_sciences,no
+فوریت‌های پزشکی,medical_nursing,no
+فیزیوتراپی,medical_rehab,no
+فیزیوتراپی ورزشی,medical_rehab,no
+فیزیولوژی,medical_basic,no
+فیزیولوژی پزشکی,medical_basic,no
+فیزیک,basic_sciences,no
+فیزیک پزشکی,medical_imaging,no
+فیزیک دریا,basic_sciences,no
+قارچ‌شناسی,medical_basic,no
+قارچ‌شناسی پزشکی,medical_basic,no
+قرآن و علوم,arts_humanities,no
+گردشگری,social_economics,no
+گریم‏,arts_humanities,no
+گفتار درمانی,medical_rehab,no
+گلوکوم,medical_clinical,no
+گوارش اطفال,medical_clinical,no
+گوارش و کبد بالغین,medical_clinical,no
+گواهی عالی بهداشت (MPH),medical_public,no
+لارینگولوژی,medical_clinical,no
+مامایی,medical_nursing,no
+مامایی و بیماریهای تولیدمثل دام,veterinary,no
+محیط زیست,agriculture_env,no
+محیط زیست دریا,agriculture_env,no
+مدارک پزشکی,medical_public,no
+مددکاری اجتماعی,social_economics,no
+مددکاری اجتماعی کودک و نوجوان,social_economics,no
+مدیریت,social_economics,no
+مدیریت بحران,social_economics,no
+مدیریت پرستاری,medical_nursing,no
+مدیریت پروژه وساخت,social_economics,no
+مدیریت توانبخشی,medical_rehab,no
+مدیریت خدمات بهداشتی درمانی,medical_public,no
+مدیریت دفاعی,arts_humanities,no
+مدیریت ساخته‌ها,social_economics,no
+مدیریت سلامت، ایمنی و محیط زیست (HSE),agriculture_env,no
+مدیریت شهری,social_economics,no
+مدیریت موزه,arts_humanities,no
+مدیریت و اطلاع‌رسانی پزشکی,medical_public,no
+مدیریت کسب و کار (MBA),social_economics,no
+مراقبت‌های ویژه پزشکی (ICU),medical_nursing,no
+مراقبت‌های ویژه پزشکی کودکان (ICU),medical_nursing,no
+مرمت,arts_humanities,no
+مرمت اشیاء فرهنگی و تاریخی,arts_humanities,no
+مرمت و احیای ابنیه و بافت‌های تاریخی,arts_humanities,no
+مشاوره,social_economics,no
+مشاوره توانبخشی,medical_rehab,no
+مشاوره در مامایی,medical_nursing,no
+مشاوره ژنتیک,medical_basic,no
+مطالعات اسلامی به زبان خارجی,arts_humanities,no
+مطالعات اعتیاد,arts_humanities,no
+مطالعات جهان,arts_humanities,no
+مطالعات جهان (بین‌الملل),arts_humanities,no
+مطالعات دفاعی استراتژیک,arts_humanities,no
+مطالعات معماری ایران,arts_humanities,no
+مطالعات موزه,arts_humanities,no
+معماری,arts_humanities,no
+معماری داخلی,medical_clinical,no
+معماری و انرژی,arts_humanities,no
+مغز و اعصاب کودکان,medical_clinical,no
+مهندسی اپتیک و لیزر,engineering,no
+مهندسی الکترواپتیک,engineering,no
+مهندسی انرژی‌های تجدیدپذیر,engineering,no
+مهندسی ایمنی، بهداشت و محیط زیست (HSE),agriculture_env,no
+مهندسی بازرسی فنی,engineering,no
+مهندسی برق,engineering,no
+مهندسی بهداشت حرفه‌ای,engineering,no
+مهندسی بهداشت محیط,engineering,no
+مهندسی بیمارستان,engineering,no
+مهندسی پزشکی,engineering,no
+مهندسی پلیمر,engineering,no
+مهندسی تعمیر و نگهداری ـ هواپیما,engineering,no
+مهندسی تکنولوژی,engineering,no
+مهندسی تکنولوژی ارتباطات و فناوری اطلاعات (ICT),engineering,no
+مهندسی در سوانح طبیعی,engineering,no
+مهندسی دریا,engineering,no
+مهندسی راه‌آهن,engineering,no
+مهندسی زیست‌شناسی,engineering,no
+مهندسی سیستم‌های انرژی,engineering,no
+مهندسی شیمی,engineering,no
+مهندسی صنایع,engineering,no
+مهندسی صنایع چوب و فراورده‌های سلولزی,engineering,no
+مهندسی طراحی محیط زیست,agriculture_env,no
+مهندسی علوم فناوری,engineering,no
+مهندسی عمران,engineering,no
+مهندسی فرماندهی و کنترل,engineering,no
+مهندسی فناوری ارشد,engineering,no
+مهندسی فناوری اطلاعات (IT),engineering,no
+مهندسی فناوری‌های نوین,engineering,no
+مهندسی فوتونیک,engineering,no
+مهندسی محیط زیست,agriculture_env,no
+مهندسی مدیریت اجرایی,engineering,no
+مهندسی مدیریت پروژه,engineering,no
+مهندسی معدن,engineering,no
+مهندسی معماری,engineering,no
+مهندسی معماری اسلامی,engineering,no
+مهندسی معماری منظر,engineering,no
+مهندسی معماری کشتی,engineering,no
+مهندسی منابع طبیعی,agriculture_env,no
+مهندسی مواد و متالورژی,engineering,no
+مهندسی مکاترونیک,engineering,no
+مهندسی مکانیک,engineering,no
+مهندسی نانو تکنولوژی,engineering,no
+مهندسی نساجی,engineering,no
+مهندسی نفت,engineering,no
+مهندسی نقشه‌برداری,engineering,no
+مهندسی هسته‌ای,engineering,no
+مهندسی هوافضا,engineering,no
+مهندسی هوانوردی (علوم وفنون هوانوردی),engineering,no
+مهندسی کامپیوتر,engineering,no
+مهندسی کشاورزی,agriculture_env,no
+مواد دندانی,dentistry,no
+موسیقی,arts_humanities,no
+موسیقی‌شناسی (اتنوموزیکولوژی),arts_humanities,no
+میکروب‌شناسی,medical_basic,no
+میکروب‌شناسی پزشکی,medical_basic,no
+میکروب‌شناسی مواد غذایی,medical_basic,no
+میکروبیولوژی دامپزشکی,veterinary,no
+نارسایی قلب و پیوند,medical_clinical,no
+نازایی (IVF),medical_clinical,no
+نانوفناوری,other,yes
+نانوفناوری پزشکی (نانوتکنولوژی پزشکی),other,yes
+نانوفناوری دارویی,medical_pharma,no
+نظارت بر امور دارویی,medical_pharma,no
+نفرولوژی,medical_clinical,no
+نقاشی,arts_humanities,no
+نقاشی ایرانی,arts_humanities,no
+نمایش عروسکی,arts_humanities,no
+نوازندگی موسیقی ایرانی,arts_humanities,no
+نوازندگی موسیقی جهانی,arts_humanities,no
+نوزادان,medical_clinical,no
+هماتولوژی,medical_clinical,no
+هماتولوژی آزمایشگاهی و بانک خون,medical_clinical,no
+هنر اسلامی,arts_humanities,no
+هنرهای پژوهشی و صنایع دستی,arts_humanities,no
+هنرهای تجسمی (هنرهای تصویری),arts_humanities,no
+هنرهای رایانه‌ای,arts_humanities,no
+هنرهای سنتی,arts_humanities,no
+هنرهای صناعی,arts_humanities,no
+هنرهای نمایشی,arts_humanities,no
+هوشبری,medical_nursing,no
+ویتره ورتین (سگمان خلفی),other,yes
+ویروس‌شناسی,medical_basic,no
+ویروس‌شناسی پزشکی,medical_basic,no
+کارآفرینی در نظام سلامت,medical_public,no
+کارآفرینی فرهنگی,social_economics,no
+کاردرمانی,medical_rehab,no
+کاردرمانی جسمی,medical_rehab,no
+کاردرمانی روانی,medical_rehab,no
+کارشناسی حرفه‌ای ارشد,other,yes
+کارشناسی حرفه‌ای بهداشت مواد غذایی با منشأ دامی,veterinary,no
+کارگردانی نمایش,arts_humanities,no
+کتابداری در شاخه پزشکی,medical_public,no
+کتابداری و اطلاع رسانی پزشکی,medical_public,no
+کلینیکال پاتولوژی دامپزشکی,veterinary,no
+کلیه اطفال,medical_clinical,no
+کنترل دارو,medical_pharma,no
+کنترل دارو و فرآورده‌های آرایشی و بهداشتی,medical_pharma,no
+کنترل مواد خوراکی و آشامیدنی,other,yes
