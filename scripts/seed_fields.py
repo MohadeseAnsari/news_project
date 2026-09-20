@@ -14,7 +14,7 @@ CSV_FILE = Path(__file__).parent.parent / "data" / "field_mapping.csv"
 
 def seed():
     if not CSV_FILE.exists():
-        print(f"❌ فایل پیدا نشد: {CSV_FILE}")
+        print(f" فایل پیدا نشد: {CSV_FILE}")
         print("اول این را اجرا کن: python -m scripts.build_field_mapping")
         return
 
@@ -25,11 +25,11 @@ def seed():
         # ۱. خواندن همه دسته‌ها به صورت dict
         categories = {c.name: c.id for c in db.query(Category).all()}
         if not categories:
-            print("❌ هیچ دسته‌ای در دیتابیس نیست.")
+            print(" هیچ دسته‌ای در دیتابیس نیست.")
             print("اول این را اجرا کن: python -m scripts.seed_categories")
             return
 
-        print(f"📋 تعداد دسته‌های موجود: {len(categories)}")
+        print(f"تعداد دسته‌های موجود: {len(categories)}")
 
         # ۲. خواندن CSV و درج رشته‌ها
         inserted = 0
@@ -45,7 +45,7 @@ def seed():
 
                 # چک کن دسته وجود دارد
                 if cat_name not in categories:
-                    print(f"⚠️  دسته ناشناخته '{cat_name}' برای رشته '{field_name}'")
+                    print(f" دسته ناشناخته '{cat_name}' برای رشته '{field_name}'")
                     no_category += 1
                     continue
 
@@ -65,15 +65,15 @@ def seed():
 
         print()
         print("=" * 50)
-        print(f"✅ رشته‌های ثبت‌شده: {inserted}")
-        print(f"⏭️  رشته‌های موجود (رد شده): {skipped}")
-        print(f"⚠️  رشته‌های بدون دسته: {no_category}")
-        print(f"📊 مجموع رشته‌ها در دیتابیس: {db.query(Field).count()}")
+        print(f"رشته‌های ثبت‌شده: {inserted}")
+        print(f"رشته‌های موجود (رد شده): {skipped}")
+        print(f"رشته‌های بدون دسته: {no_category}")
+        print(f" مجموع رشته‌ها در دیتابیس: {db.query(Field).count()}")
         print("=" * 50)
 
     except Exception as e:
         db.rollback()
-        print(f"❌ خطا: {e}")
+        print(f" خطا: {e}")
         raise
     finally:
         db.close()

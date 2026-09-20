@@ -15,8 +15,8 @@ def main():
         total_fields = db.query(Field).count()
 
         print("=" * 60)
-        print(f"📊 تعداد دسته‌ها: {total_cats}")
-        print(f"📊 تعداد رشته‌ها: {total_fields}")
+        print(f" تعداد دسته‌ها: {total_cats}")
+        print(f" تعداد رشته‌ها: {total_fields}")
         print("=" * 60)
 
         # توزیع رشته‌ها در دسته‌ها
@@ -28,7 +28,7 @@ def main():
             .all()
         )
 
-        print("\n📈 توزیع رشته‌ها در دسته‌ها:")
+        print("\n توزیع رشته‌ها در دسته‌ها:")
         print("-" * 60)
         for name, count in results:
             pct = (count / total_fields * 100) if total_fields else 0

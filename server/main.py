@@ -51,7 +51,9 @@ def on_startup():
 
 
 # ---------------- Helpers ----------------
-def resolve_field(db: Session, field_name: str) -> tuple[int | None, int | None]:
+def resolve_field(
+                    db: Session, field_name: str
+                 ) -> tuple[int | None, int | None]:
     """
     رشته را به field و category نگاشت می‌کند.
     اگر رشته در جدول fields نباشد، به دسته «other» برمی‌گردد.

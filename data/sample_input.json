@@ -1,11 +1,11 @@
 {
-  "shared_Secret": "demo-secret",
-  "username": "intern",
-  "title": "AI Research Project",
   "abstract": "A university research team has developed a new artificial intelligence method that could help researchers analyze large scientific datasets more efficiently. The researchers said the method may reduce the time required for data analysis and could have applications in several scientific fields.",
-  "field": "technology",
-  "university": "Example University",
-  "table_of_contents": "Introduction, Method, Results, Applications",
   "author": "Research Team",
-  "supervisor": "Internship Supervisor"
+  "field": "technology",
+  "shared_Secret": "demo-secret",
+  "supervisor": "Internship Supervisor",
+  "table_of_contents": "Introduction, Method, Results, Applications",
+  "title": "AI Research Project",
+  "university": "Example University",
+  "username": "intern"
 }

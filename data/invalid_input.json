@@ -1,12 +1,10 @@
 {
-  "shared_Secret": "demo-secret",
-  "username": "intern",
-  "title": "AI Research Project",
-  "field": "Artificial Intelligence",
-  "university": "Example University",
-  "table_of_contents": "Introduction",
   "author": "Research Team",
-  "supervisor": "Internship Supervisor"
+  "field": "Artificial Intelligence",
+  "shared_Secret": "demo-secret",
+  "supervisor": "Internship Supervisor",
+  "table_of_contents": "Introduction",
+  "title": "AI Research Project",
+  "university": "Example University",
+  "username": "intern"
 }
-
-

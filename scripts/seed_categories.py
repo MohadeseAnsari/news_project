@@ -14,7 +14,7 @@ DATA_FILE = Path(__file__).parent.parent / "data" / "categories.json"
 
 def seed():
     if not DATA_FILE.exists():
-        print(f"❌ فایل پیدا نشد: {DATA_FILE}")
+        print(f" فایل پیدا نشد: {DATA_FILE}")
         return
 
     init_db()
@@ -39,13 +39,13 @@ def seed():
             inserted += 1
 
         db.commit()
-        print(f"✅ دسته‌های ثبت‌شده: {inserted}")
-        print(f"⏭️  دسته‌های موجود (رد شده): {skipped}")
-        print(f"📊 مجموع دسته‌ها: {db.query(Category).count()}")
+        print(f" دسته‌های ثبت‌شده: {inserted}")
+        print(f"  دسته‌های موجود (رد شده): {skipped}")
+        print(f" مجموع دسته‌ها: {db.query(Category).count()}")
 
     except Exception as e:
         db.rollback()
-        print(f"❌ خطا: {e}")
+        print(f" خطا: {e}")
         raise
     finally:
         db.close()

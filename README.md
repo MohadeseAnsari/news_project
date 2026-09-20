@@ -36,7 +36,7 @@ WebUI / Telegram / Bale / Web
 
 bash
 
-git clone <repo-url>
+git clone <https://github.com/MohadeseAnsari/news_project>
 cd news_project
 
 python -m venv .venv
@@ -176,7 +176,6 @@ category_id به دسته other نگاشت می‌شود
 │   ├── build_field_mapping.py
 │   ├── seed_categories.py
 │   ├── seed_fields.py
-│   ├── seed_prompts.py
 │   ├── check_data.py
 │   └── compare_prompts.py
 ├── migrations/

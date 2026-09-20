@@ -25,7 +25,7 @@ def main():
 
     for input_file in INPUT_FILES:
         if not input_file.exists():
-            print(f"❌ پیدا نشد: {input_file}")
+            print(f" پیدا نشد: {input_file}")
             continue
 
         data = json.loads(input_file.read_text(encoding="utf-8"))
@@ -33,13 +33,13 @@ def main():
         name = input_file.stem
 
         print(f"\n{'=' * 60}")
-        print(f"📄 {name}")
+        print(f" {name}")
         print("=" * 60)
 
-        print("  ⏳ اجرای v1...")
+        print(" اجرای v1...")
         v1 = generate_news(abstract, version="v1").model_dump()
 
-        print("  ⏳ اجرای v2...")
+        print("  اجرای v2...")
         v2 = generate_news(abstract, version="v2").model_dump()
 
         result = {
@@ -55,14 +55,14 @@ def main():
             json.dumps(result, ensure_ascii=False, indent=2),
             encoding="utf-8",
         )
-        print(f"  ✅ ذخیره شد: {out}")
+        print(f" ذخیره شد: {out}")
 
     all_out = OUTPUT_DIR / "all_comparisons.json"
     all_out.write_text(
         json.dumps(all_results, ensure_ascii=False, indent=2),
         encoding="utf-8",
     )
-    print(f"\n🎉 همه نتایج: {all_out}")
+    print(f"\n همه نتایج: {all_out}")
 
 
 if __name__ == "__main__":

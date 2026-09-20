@@ -50,7 +50,7 @@
 ایمنی و بهداشت در واحدهای صنفی,medical_public,no
 ایمنی‌شناسی,medical_basic,no
 ایمنی‌شناسی پزشکی,medical_basic,no
-ایمنی، بهداشت و محیط زیست,agriculture_env,no
+"ایمنی، بهداشت و محیط زیست",agriculture_env,no
 ایمونولوژی و آلرژی اطفال,medical_clinical,no
 ایمونولوژی و آلرژی بالینی,medical_clinical,no
 اینترونشنال کاردیولوژی,medical_clinical,no
@@ -337,7 +337,7 @@
 علوم تشریحی,medical_basic,no
 علوم تغذیه,medical_clinical,no
 علوم تغذیه در بحران و حوادث مترقبه,medical_clinical,no
-علوم حدیث، اخلاق و آداب پزشکی,medical_public,no
+"علوم حدیث، اخلاق و آداب پزشکی",medical_public,no
 علوم داروهای پرتوزا,medical_pharma,no
 علوم دارویی دامپزشکی,veterinary,no
 علوم زمین,basic_sciences,no
@@ -408,7 +408,7 @@
 مدیریت خدمات بهداشتی درمانی,medical_public,no
 مدیریت دفاعی,arts_humanities,no
 مدیریت ساخته‌ها,social_economics,no
-مدیریت سلامت، ایمنی و محیط زیست (HSE),agriculture_env,no
+"مدیریت سلامت، ایمنی و محیط زیست (HSE)",agriculture_env,no
 مدیریت شهری,social_economics,no
 مدیریت موزه,arts_humanities,no
 مدیریت و اطلاع‌رسانی پزشکی,medical_public,no
@@ -436,7 +436,7 @@
 مهندسی اپتیک و لیزر,engineering,no
 مهندسی الکترواپتیک,engineering,no
 مهندسی انرژی‌های تجدیدپذیر,engineering,no
-مهندسی ایمنی، بهداشت و محیط زیست (HSE),agriculture_env,no
+"مهندسی ایمنی، بهداشت و محیط زیست (HSE)",agriculture_env,no
 مهندسی بازرسی فنی,engineering,no
 مهندسی برق,engineering,no
 مهندسی بهداشت حرفه‌ای,engineering,no

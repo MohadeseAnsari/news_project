@@ -1,15 +1,13 @@
-from enum import Enum
-
 from pydantic import BaseModel, Field
-
-
+"""
 class NewsField(str, Enum):
-    """Allowed categories for incoming news."""
+    Allowed categories for incoming news.
 
     SCIENCE = "science"
     TECHNOLOGY = "technology"
     MEDICAL = "medical"
     OTHER = "other"
+"""
 
 
 class NewsInput(BaseModel):
@@ -19,7 +17,7 @@ class NewsInput(BaseModel):
     username: str = Field(min_length=1, max_length=100)
     title: str = Field(min_length=5, max_length=200)
     abstract: str = Field(min_length=1, max_length=5000)
-    field: NewsField
+    field: str = Field(min_length=1, max_length=200)
     university: str = Field(min_length=1, max_length=200)
     table_of_contents: str = Field(min_length=1, max_length=5000)
     author: str = Field(min_length=1, max_length=200)

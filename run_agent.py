@@ -23,7 +23,7 @@ def main() -> None:
     version = "v1" if "--v1" in sys.argv else "v2"
 
     if not input_path.exists():
-        print(f"❌ فایل پیدا نشد: {input_path}")
+        print(f" فایل پیدا نشد: {input_path}")
         sys.exit(1)
 
     try:
@@ -32,9 +32,9 @@ def main() -> None:
 
         news_input = NewsInput.model_validate(data)
 
-        print(f"📄 ورودی: {input_path.name}")
-        print(f"🔧 نسخه پرامپت: {version}")
-        print(f"📝 عنوان: {news_input.title}")
+        print(f" ورودی: {input_path.name}")
+        print(f" نسخه پرامپت: {version}")
+        print(f" عنوان: {news_input.title}")
         print()
 
         generated = generate_news(news_input.abstract, version=version)
@@ -42,9 +42,9 @@ def main() -> None:
         print("=" * 60)
         print(f"خروجی ({version})")
         print("=" * 60)
-        print(f"\n📰 Title:\n{generated.title}")
-        print(f"\n📌 Lead:\n{generated.lead}")
-        print(f"\n📄 Body:\n{generated.body}")
+        print(f"\n Title:\n{generated.title}")
+        print(f"\n Lead:\n{generated.lead}")
+        print(f"\n Body:\n{generated.body}")
 
         # ذخیره خروجی با اسم نسخه
         output_path = input_path.with_name(
@@ -57,11 +57,11 @@ def main() -> None:
                 ensure_ascii=False,
                 indent=2,
             )
-        print(f"\n💾 ذخیره شد: {output_path}")
+        print(f"\n ذخیره شد: {output_path}")
 
     except Exception as error:
         print("=" * 60)
-        print("❌ خطا در اجرا")
+        print(" خطا در اجرا")
         print("=" * 60)
         print(f"نوع خطا: {type(error).__name__}")
         print(f"پیام: {error}")
